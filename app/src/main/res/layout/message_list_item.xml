@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_layout_item"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@id/msg_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_title"
+        android:textColor="@color/msgtitle"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@id/msg_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg_title"
+        android:layout_marginTop="5dp"
+        android:text="@string/msg_desc"
+        android:textColor="@color/msgdesc"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@id/txt_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg_desc"
+        android:layout_marginTop="5dp"
+        android:text="@string/txt_datetime"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@id/msg_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/txt_datetime"
+        android:layout_toRightOf="@id/txt_datetime"
+        android:text="@string/msg_datetime"
+        android:textColor="@color/msgdatetime"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 头部色彩 -->
+    <color name="topbarbg">#0191af</color>
+    <color name="toptitle">#ebebeb</color>
+    <!-- -->
+    <color name="txtbtnlogin">#fcfcfcfc</color>
+    <color name="edittextcolor">#ff191919</color>
+    <color name="borderlayout">#d1d1d1</color>
+    <color name="layoutbg">#f0f0f0</color>
+    <color name="layoutbg_press">#cccccc</color>
+    <color name="msgtitle">#323232</color>
+    <color name="msgdesc">#646464</color>
+    <color name="msgbg">#f0f0f0</color>
+    <color name="msgdatetime">#30f3ff</color>
+    <color name="facebg">#d9d9d9</color>
+
+
+    <color name="menuleftline">#0088a6</color>
+    <color name="menubottomline">#e1e1e1</color>
+</resources>

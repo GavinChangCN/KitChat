@@ -1,6 +1,45 @@
 <resources>
     <string name="app_name">KitChat</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="msg_title">Communication Title</string>
+    <string name="msg_desc">Communication Content</string>
+    <string name="txt_datetime">Time:</string>
+    <string name="msg_datetime">2015-04-21</string>
+    <string name="test_button">Test Button</string>
+    <string name="signin">Sign in</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="tip">Tip</string>
+    <string name="save">Save</string>
+    <string name="unsave">UnSave</string>
+    <string name="signup">Sign up</string>
+    <string name="title_activity_message">Message</string>
+    <string name="title_activity_register">Register</string>
+    <string name="hint_putyourrealname">Please input your realname</string>
+    <string name="hint_putyourphone">Please input your Phone</string>
+    <string name="hint_putyourpwd">Please input your password</string>
+    <string name="hint_putyouruniver">Please input your school</string>
+    <string name="hint_putyourcollege">Please input your College</string>
+    <string name="hint_putgetvalidate">Please input your Verification code</string>
+    <string name="hint_getvalidate">Verification Code</string>
+    <string name="hint_putyourpassword">Please input your password</string>
+    <string name="hint_putyourusername">Please input your phone number</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="checkupdate">Check Update</string>
+    <string name="aboutus">AboutUs</string>
+    <string name="useinfo">Help</string>
+    <string name="advicetous">AdviceToUs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notice">Notice</string>
+    <string name="weektask">WeekTask</string>
+    <string name="setting">Setting</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="exit">Sign Out</string>
+    <string name="title_activity_province">ProvinceActivity</string>
+    <string name="title_activity_univer">UniverActivity</string>
+    <string name="title_activity_college">CollegeActivity</string>
 </resources>

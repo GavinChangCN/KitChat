@@ -1,10 +1,13 @@
+// 声明是Android程序
 apply plugin: 'com.android.application'
 
 android {
+    // 编译SDK的版本
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
     defaultConfig {
+        // 应用的包名
         applicationId "gavin.kitchat"
         minSdkVersion 15
         targetSdkVersion 22
@@ -13,13 +16,20 @@ android {
     }
     buildTypes {
         release {
+            // 时候进行混淆
             minifyEnabled false
+            // 混淆文件的位置
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    // 移除lint检查的Error
+    lintOptions {
+        abortOnError false
     }
 }
 
 dependencies {
+    // 编译libs目录下的所有jar包
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
 }

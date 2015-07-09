@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@id/topbarLayout"
+                layout="@layout/topbar"></include>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_bg"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/icon_user"
+                        android:drawablePadding="5dp"
+                        android:hint="@string/hint_putyourusername"
+                        android:inputType="number"
+                        android:paddingLeft="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/edittextcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@id/edit_userpwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_bg"
+                        android:drawableLeft="@drawable/icon_password"
+                        android:drawablePadding="5dp"
+                        android:hint="@string/hint_putyourpassword"
+                        android:inputType="textPassword"
+                        android:paddingLeft="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/edittextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <Button
+                    android:id="@id/btn_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_orange"
+                    android:gravity="center"
+                    android:text="@string/signin"
+                    android:textColor="@color/txtbtnlogin"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@id/txt_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"
+                android:clickable="true"
+                android:text="@string/signup"
+                android:textColor="#004477"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

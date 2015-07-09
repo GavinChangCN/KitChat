@@ -5,4 +5,48 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="BG_Edit">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/edittextcolor</item>
+
+    </style>
+
+    <style name="line_gray_horizontal">
+        <item name="android:background">@color/borderlayout</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="line_gray_horizontal_item" parent="@style/line_gray_horizontal">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="setting_right_arrow">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/icon_right</item>
+    </style>
+
+    <style name="setting_company_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+
+
+    </style>
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_load_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
 </resources>

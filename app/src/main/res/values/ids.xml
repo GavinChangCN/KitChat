@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 资讯界面 -->
+    <item name="msg_title" type="id"></item>
+    <item name="msg_desc" type="id"></item>
+    <item name="txt_datetime" type="id" />
+    <item name="msg_datetime" type="id" />
+    <item name="topbarLayout" type="id" />
+    <item name="topLeftBtn" type="id" />
+    <item name="topTitle" type="id" />
+    <item name="topRightBtn" type="id" />
+    <item name="edit_userpwd" type="id" />
+    <item name="txt_reg" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="progress" type="id" />
+    <item name="dialog_view" type="id" />
+    <item name="img" type="id" />
+    <item name="tipTextView" type="id" />
+</resources>
