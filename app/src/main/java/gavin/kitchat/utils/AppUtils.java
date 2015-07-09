@@ -14,7 +14,7 @@ import android.content.pm.PackageManager;
 public class AppUtils {
 
     public AppUtils() {
-        /* 无法安装 */
+        /* 无法初始化 */
         throw new UnsupportedOperationException("cannot be instantiated" ) ;
     }
 

@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
 
+import gavin.kitchat.utils.UpdateManager;
+
 /**
  * User: Gavin
  * E-mail: GavinChangCN@163.com
@@ -36,6 +38,7 @@ public class LoginActivity extends BaseActivity {
         // 窗体获得焦点就会隐藏小键盘
         getWindow().setSoftInputMode( WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN ) ;
         initViews() ;
-
+        UpdateManager updateManager = new UpdateManager(LoginActivity.this) ;
+        updateManager.checkUpddate() ;
     }
 }
